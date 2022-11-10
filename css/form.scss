@@ -1,0 +1,66 @@
+@import './variables.scss';
+
+form {
+    margin-top: 50px;
+
+    &.blue {
+
+        input,
+        select,
+        textarea {
+            background-color: $color1;
+            color: white;
+
+            &::placeholder {
+                color: rgba($color3, 80%);
+                opacity: 1;
+            }
+        }
+
+    }
+
+    &.white {
+
+        input,
+        select,
+        textarea {
+            background-color: white;
+            color: $color2;
+
+            &::placeholder {
+                color: rgba($color2, 80%);
+                opacity: 1;
+            }
+        }
+
+    }
+
+    input,
+    select,
+    textarea {
+        height: 52px;
+        background-color: $color1;
+        color: white;
+        display: block;
+        width: 100%;
+        padding: 10px 15px;
+        outline: none;
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        height: 160px;
+    }
+
+    .button {
+        margin: auto;
+        display: block;
+        font-weight: 400;
+        height: auto;
+
+        @media (min-width: 576px) {
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+.headerTitle {
+    padding: 50px 0;
+    text-align: center;
+
+    .title {
+        font-size: 26px;
+    }
+
+    .subtitle {
+        margin-top: 30px;
+        color: $color5;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    @media (min-width: 576px) {
+        padding: 90px 0 40px;
+    }
+}

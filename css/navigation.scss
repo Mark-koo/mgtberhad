@@ -1,0 +1,60 @@
+@import './variables.scss';
+
+.navigation {
+    background-color: $color6;
+
+    .col {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .title {
+            font-weight: 700;
+            color: $color2;
+        }
+
+        .path {
+            display: none;
+            align-items: center;
+            column-gap: 15px;
+
+            a {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 15px;
+                }
+
+            }
+
+
+            .arrow {
+                width: 15px;
+            }
+
+            span {
+                opacity: 0.5;
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+
+        @media (min-width: 576px) {
+            justify-content: space-between;
+
+            .title {
+                font-size: 24px;
+            }
+            .path {
+                display: flex !important;
+            }
+        }
+
+        @media (min-width: 768px) {
+            padding-top: 60px;
+        }
+    }
+}

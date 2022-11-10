@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <?php include('lib/htmlHead.php'); ?>
+    <title>Trustee Company in Malaysia - Contact - Mega Trustee Berhad</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+
+<body>
+    <?php include('lib/header.php'); ?>
+    <?php
+    $title = "Contact";
+    include('lib/navigationBar.php'); ?>
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="info col-12 col-md-6 col-lg-4">
+                    <img src="/img/icon-mail.png">
+                    <div class="wrap">
+                        <p class="h2">Email</p>
+                        <a href="mail:info@megatrustee.com.my">info@megatrustee.com.my</a>
+                    </div>
+                </div>
+                <div class="info col-12 col-md-6 col-lg-4">
+                    <img src="/img/icon-phone-3.png">
+                    <div class="wrap">
+                        <p class="h2">Phone</p>
+                        <a href="tel:+60397794892">+60 3 9779 4892/3</a>
+                    </div>
+                </div>
+                <div class="info col-12 col-lg-4">
+                    <img src="/img/icon-location.png">
+                    <div class="wrap">
+                        <p class="h2">Address</p>
+                        <a href="https://www.google.com.my/maps/search/Suite+11-10,+11+Floor,+Wisma+UOA++II,+No,+Jalan+Pinang,+50450+Kuala+Lumpur,+Wilayah+Persekutuan+Kuala+Lumpur/@3.1527076,101.7117251,19.22z"
+                            target="_blank">B-06-14,
+                            MEGAN AVENUE II, <br>12 JALAN YAP KWAN SENG, <br>50450 KUALA LUMPUR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="formAndMap row">
+                <div class="formArea col-12 col-lg-6">
+                    <p class="h1">Let's Talk With Us</p>
+                    <form class="blue">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input id="name" name="name" type="text" placeholder="Your Name(*)">
+                            </div>
+                            <div class="col-sm-6">
+                                <input id="email" name="email" type="email" placeholder="Your Email(*)">
+                            </div>
+                            <div class="col-sm-6">
+                                <input id="phone" name="text" type="text" placeholder="Your Phone(*)">
+                            </div>
+                            <div class="col-sm-6">
+                                <select id="service" name="service">
+                                    <option value="">---</option>
+                                    <option value="Contingency Trust">Contingency Trust</option>
+                                    <option value="Personal Trust">Personal Trust</option>
+                                    <option value="Corporate Trust">Corporate Trust</option>
+                                    <option value="Will Writing">Will Writing</option>
+                                    <option value="Administration of Estate">Administration of Estate</option>
+                                    <option value="Interest Scheme">Interest Scheme</option>
+                                    <option value="Escrow Services">Escrow Services</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <textarea id="message" name="message" placeholder="Your Messages" rows="10"></textarea>
+                        <button class="button blue" type="submit">
+                            <span>Submit</span>
+                            <span style="display:none">Submiting...</span>
+                            <span style="display:none">Successfull! We will reply you ASAP.</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="mapArea col-12 col-lg-6">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?php include('lib/footer.php'); ?>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtLcWNkp0mcBIZRJkA7OpPeCG3NEKbUtA&callback=initMap"
+        defer></script>
+    <script>
+        window.initMap = function initMap() {
+            const myLatLng = { lat: 3.161549, lng: 101.71186 };
+
+            const map = new google.maps.Map(
+                document.getElementById("map"),
+                {
+                    zoom: 16,
+                    center: myLatLng,
+                }
+            );
+
+            new google.maps.Marker({
+                position: myLatLng,
+                map,
+            });
+        };
+    </script>
+
+</body>

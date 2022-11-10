@@ -1,0 +1,274 @@
+@import './variables.scss';
+
+header {
+    height: 171px;
+    padding: 30px 0 50px;
+
+    @media (max-width: 768px) {
+        height: auto;
+        padding: 20px 0 20px;
+    }
+
+    .row {
+        height: 100%;
+
+        &>div,
+        &>ul {
+            padding-left: 0;
+            padding-right: 0;
+
+            @media (max-width: 576px) {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+
+    .logo {
+        height: 50px;
+
+        @media (max-width: 576px) {
+            height: 47px;
+        }
+
+    }
+
+    .headerContact {
+        display: inline-flex;
+
+        &+.headerContact {
+            margin-left: 40px;
+
+            @media (max-width: 991px) {
+                margin-left: 0;
+            }
+        }
+
+        .icon {
+            width: 80px;
+            margin-right: 20px;
+        }
+
+        &Info {
+            .text1 {
+                font-weight: 300;
+                font-style: italic;
+                font-size: 13px;
+                color: $color1;
+                margin-bottom: 5px;
+            }
+
+            .text2 {
+                font-weight: 700;
+                color: $color2;
+            }
+        }
+    }
+
+    .nav {
+        margin-top: 15px;
+        height: 70px;
+        background-color: $color1;
+        box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 35%);
+        padding-right: 8px;
+        position: relative;
+        z-index: 1;
+
+        ul {
+            list-style: none;
+
+            li {
+                border-right: 1px solid rgba($color3, 0.23);
+
+                &:hover .secondLayer {
+                    display: block;
+                }
+
+                a,
+                span {
+                    color: $color3;
+                    font-size: 13px;
+                }
+            }
+        }
+
+
+        .firstLayer {
+            display: flex;
+
+            .active {
+
+                &>a,
+                &>span {
+                    color: white;
+                    border-color: $color3;
+                    opacity: 1;
+                }
+            }
+
+            a,
+            span {
+                padding: 24px 30px 22px;
+                display: block;
+                border-bottom: 4px solid transparent;
+                opacity: 0.85;
+                transition: .3s;
+
+                &:hover {
+                    color: white;
+                    border-color: $color3;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .secondLayer {
+            display: none;
+            position: absolute;
+            padding: 16px 0;
+            background-color: $color2;
+            transition: .3s;
+
+            .active {
+                &>a {
+                    margin-left: 5px;
+                }
+            }
+
+            a {
+                padding: 8px 24px;
+                border: none;
+                line-height: 1;
+
+                &:hover {
+                    margin-left: 5px;
+                }
+
+            }
+        }
+
+    }
+}
+
+.mobileNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+
+    &.open {
+        transition: 0.3s;
+        opacity: 1;
+        visibility: visible;
+
+        .overlay {
+            opacity: 1;
+        }
+
+        .firstLayer {
+            transform: translateX(0);
+        }
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, .6);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+
+    .button-icon {
+        position: absolute;
+        top: 10px;
+        right: calc(75% + 10px);
+        background-color: transparent;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            border-bottom: 1px solid rgba($color3, 0.12);
+
+            &>a {
+                display: block;
+                color: rgba($color3, 0.63);
+                font-size: 14px;
+                font-weight: 700;
+
+                button {
+                    border-left: 1px solid rgba($color3, 0.12);
+                    padding: 12px 15px;
+                    background-color: transparent;
+                    margin-top: -12px;
+                    margin-bottom: -12px;
+                    margin-right: -20px;
+
+                    img {
+                        opacity: 0.63;
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .firstLayer {
+        background-color: $color2;
+        max-width: 75%;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        overflow-y: scroll;
+        padding: 30px;
+        box-shadow: -5px 0 20px rgb(0 0 0 / 12%);
+        transition: 0.3s;
+        transform: translateX(100%);
+
+        .active {
+
+            &>a {
+                color: $color3;
+
+                img {
+                    opacity: 1;
+                }
+            }
+        }
+
+        a {
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .secondLayer {
+        border-top: 1px solid rgba($color3, 0.12);
+        padding-left: 20px;
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+
+        &.open {
+            max-height: 400px;
+        }
+
+        a {
+            padding: 8px 24px;
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        li:last-child {
+            border: none;
+        }
+    }
+}

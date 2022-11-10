@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+.policy {
+    padding: 90px 0;
+
+    .content {
+        color: $color8;
+
+        p {
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        h1,
+        h2,
+        strong {
+            color: $color1;
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+            line-height: 1.5;
+        }
+
+        td {
+            border: 1px solid;
+            padding: 5px;
+        }
+    }
+}

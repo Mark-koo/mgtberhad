@@ -1,0 +1,151 @@
+@import './variables.scss';
+
+.aboutUs {
+
+    .area1 {
+        padding-top: 40px;
+        text-align: center;
+        color: $color2;
+    }
+
+    .area2 {
+        margin-top: 60px;
+    }
+
+
+    // h1 {}
+
+    .subtitle {
+        margin-top: 50px;
+    }
+
+    .content {
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .imgArea {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+        img {
+            width: 100%;
+            display: block;
+            // transform: translateY(-150px);
+        }
+
+    }
+
+    @media (min-width: 576px) {
+        .area1 {
+            padding-top: 80px;
+        }
+
+        .imgArea {
+            grid-template-columns: repeat(3, 1fr);
+            padding: 0;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .area1 {
+            text-align: left;
+        }
+
+        .area2 {
+            margin-top: 80px;
+        }
+
+        .subtitle {
+            margin-top: 20px;
+        }
+
+        .content {
+            text-align: left;
+        }
+    }
+
+    @media (min-width: 992px) {
+        h1 {
+            font-size: 36px;
+        }
+    }
+
+}
+
+.expertTeamTitle {
+    margin-top: -200px;
+    padding-top: 280px;
+    padding-bottom: 100px;
+    background-color: $color3;
+
+    .h1 {
+        padding-bottom: 60px;
+        text-align: center;
+        color: $color2;
+        line-height: 1.3;
+    }
+
+    @media (min-width: 576px) {
+        margin-top: -80px;
+        padding-top: 160px;
+    }
+
+    @media (min-width: 768px) {
+        .h1 {
+            text-align: left;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        padding-bottom: 180px;
+    }
+}
+
+.expertTeam {
+    margin-top: -100px;
+    padding-bottom: 60px;
+
+    .col-md-6 {
+        padding: 0;
+    }
+
+    .staff {
+        padding: 30px 20px;
+        background-color: $color2;
+        color: $color3;
+        margin-bottom: 30px;
+        border: 1px solid white;
+
+
+        img {
+            max-width: 200px;
+            width: 100%;
+        }
+
+        .name {
+            font-size: 24px;
+        }
+
+        .position {
+            color: #777;
+        }
+
+        .description {
+            margin-top: 10px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .staff {
+            margin-bottom: 0;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        margin-top: -180px;
+    }
+ 
+}
