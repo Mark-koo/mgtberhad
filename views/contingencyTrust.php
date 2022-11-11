@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Contingency Trust - Trustee Company in Malaysia - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="A trust set up by individual or corporate for contingency purposes which includes death, permanent disabilities due to accidents and also shutting down of companies. The setting up trust offers liquidity in the cases of contingency.">
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/service.css">
 </head>
@@ -19,7 +21,7 @@
             <div class="row">
                 <div class="info col-12 col-lg-8">
                     <div class="title">
-                        <img src="/img/icon-contingency-trust.png">
+                        <img src="/img/icon-contingency-trust.png" alt="service image">
                         <h1>Contingency Trust</h1>
                     </div>
                     <div class="content">
@@ -39,7 +41,7 @@
                 <!-- talk with us -->
                 <div class="col-12 col-lg-4">
                     <div class="title">
-                        <img src="/img/icon-information.png">
+                        <img src="/img/icon-information.png" alt="icon">
                         <h1>Talk with us</h1>
                     </div>
                     <?php $serviceForm = true;

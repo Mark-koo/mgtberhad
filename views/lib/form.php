@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
             if ($uploadStatus == 1) {
 
                 // Recipient Email, write your email here
-                $toEmail = 'admin@megatrustee.com.my';
+                $toEmail = 'info@megatrustee.com.my';
 
                 // Sender Data
                 $from = $email;
@@ -133,12 +133,12 @@ if (isset($_POST['submit'])) {
 
 <?php if ($serviceForm): ?>
 <form class="blue" method="post" action="">
-    <input name="name" type="text" placeholder="Your Name(*)" required value="Mark">
-    <input name="email" type="email" placeholder="Your Email(*)" required value="koocool88@gmail.com">
-    <input name="phone" type="text" placeholder="Your Phone(*)" required value="0167281123">
+    <input name="name" type="text" placeholder="Your Name(*)" required>
+    <input name="email" type="email" placeholder="Your Email(*)" required>
+    <input name="phone" type="text" placeholder="Your Phone(*)" required>
     <select name="service" required>
         <option value="">---</option>
-        <option selected value="Contingency Trust">Contingency Trust</option>
+        <option value="Contingency Trust">Contingency Trust</option>
         <option value="Personal Trust">Personal Trust</option>
         <option value="Corporate Trust">Corporate Trust</option>
         <option value="Will Writing">Will Writing</option>
@@ -147,7 +147,7 @@ if (isset($_POST['submit'])) {
         <option value="Escrow Services">Escrow Services</option>
         <option value="Others">Others</option>
     </select>
-    <textarea name="message" placeholder="Your Messages" rows="10">Test</textarea>
+    <textarea name="message" placeholder="Your Messages" rows="10"></textarea>
     <button class="button blue" name="submit" type="submit">Submit</button>
 </form>
 <?php endif; ?>
@@ -156,18 +156,18 @@ if (isset($_POST['submit'])) {
 <form class="blue" method="post" action="">
     <div class="row">
         <div class="col-sm-6">
-            <input name="name" type="text" placeholder="Your Name(*)" required value="Mark">
+            <input name="name" type="text" placeholder="Your Name(*)" required>
         </div>
         <div class="col-sm-6">
-            <input name="email" type="email" placeholder="Your Email(*)" required value="koocool88@gmail.com">
+            <input name="email" type="email" placeholder="Your Email(*)" required>
         </div>
         <div class="col-sm-6">
-            <input name="phone" type="text" placeholder="Your Phone(*)" required value="0167281123">
+            <input name="phone" type="text" placeholder="Your Phone(*)" required>
         </div>
         <div class="col-sm-6">
             <select name="service" required>
                 <option value="">---</option>
-                <option selected value="Contingency Trust">Contingency Trust</option>
+                <option value="Contingency Trust">Contingency Trust</option>
                 <option value="Personal Trust">Personal Trust</option>
                 <option value="Corporate Trust">Corporate Trust</option>
                 <option value="Will Writing">Will Writing</option>
@@ -178,7 +178,7 @@ if (isset($_POST['submit'])) {
             </select>
         </div>
     </div>
-    <textarea name="message" placeholder="Your Messages" rows="10">Test</textarea>
+    <textarea name="message" placeholder="Your Messages" rows="10"></textarea>
     <button class="button blue" name="submit" type="submit">Submit</button>
 </form>
 <?php endif; ?>
@@ -187,14 +187,14 @@ if (isset($_POST['submit'])) {
 <form class="white" method="post" action="" enctype="multipart/form-data">
     <div class="row">
         <div class="col-md-6">
-            <input name="name" type="text" placeholder="Your Name(*)" required value="Mark2">
+            <input name="name" type="text" placeholder="Your Name(*)" required>
         </div>
         <div class="col-md-6">
-            <input name="email" type="email" placeholder="Your Email(*)" required value="koocool88@gmail.com">
+            <input name="email" type="email" placeholder="Your Email(*)" required>
         </div>
     </div>
-    <input name="phone" type="text" placeholder="Your Phone(*)" required value="0167281234">
-    <textarea name="message" placeholder="Your Messages" rows="10">Test</textarea>
+    <input name="phone" type="text" placeholder="Your Phone(*)" required>
+    <textarea name="message" placeholder="Your Messages" rows="10"></textarea>
     <div class="row">
         <div class="col-md-6">
             <label>Your Resume</label>

@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Trustee Company in Malaysia - Anti-bribery & Corruption Policy - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="Mega Trustee Berhad (“the Company”) is licensed and regulated by the Central Bank of Malaysia (“BNM”) and the Securities Commission of Malaysia (“SC”). With the coming into force of Section 17A of the Malaysian Anti-Corruption Commission Act, the Company’s Anti-Bribery and Corruption Policy (“the Policy”) provides guidance to employees and its stakeholders on how to recognize and deal with improper solicitation, bribery and any other corruption activities and issues that may arise in the course of business.">
     <link rel="stylesheet" href="/css/policy.css">
 </head>
 

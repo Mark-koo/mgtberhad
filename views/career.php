@@ -4,6 +4,7 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Trustee Company in Malaysia - Career - Mega Trustee Berhad</title>
+    <meta name="description" content="Alone We Can Do So Little, Together We Can Do So Much !">
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/career.css">
 </head>
@@ -27,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img src="/img/career.jpg">
+                    <img src="/img/career.jpg" alt="career image">>
                     <div class="formArea">
                         <p class="h1">Join Us Now !!</p>
                         <div class="subtitle">Welcome to Join Our Team</div>

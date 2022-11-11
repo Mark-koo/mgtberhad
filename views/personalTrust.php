@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Personal Trust - Trustee Company in Malaysia - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="A legal arrangement where assets ownership are transferred from the individual who sets up the trust (Settlor) to another individual or organization (Trustee) for the benefits of one or more people (Beneficiaries).">
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/service.css">
 </head>
@@ -19,7 +21,7 @@
             <div class="row">
                 <div class="info col-12 col-lg-8">
                     <div class="title">
-                        <img src="/img/icon-personal-trust.png">
+                        <img src="/img/icon-personal-trust.png" alt="icon">
                         <h1>Personal Trust</h1>
                     </div>
                     <div class="content">
@@ -46,7 +48,7 @@
                 <!-- talk with us -->
                 <div class="col-12 col-lg-4">
                     <div class="title">
-                        <img src="/img/icon-information.png">
+                        <img src="/img/icon-information.png" alt="icon">
                         <h1>Talk with us</h1>
                     </div>
                     <?php $serviceForm = true;

@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Trustee Company in Malaysia - About - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="We offer highly efficient and personalized level of support and administration for the needs of corporate institutions and individuals around the world. Mega Trustee Berhad always listens to its clients and carefully provide professional advice without any conflict. We at Mega Trustee Berhad, envision building and maintaining a continuous and mutually beneficial relationship with our clients.">
     <link rel="stylesheet" href="/css/about.css">
 </head>
 
@@ -35,9 +37,9 @@
                         relationship with our clients.
                     </p>
                     <div class="imgArea ">
-                        <img src="/img/about-1.jpg">
-                        <img src="/img/about-2.jpg">
-                        <img src="/img/about-3.jpg">
+                        <img src="/img/about-1.jpg" alt="about image">
+                        <img src="/img/about-2.jpg" alt="about image">
+                        <img src="/img/about-3.jpg" alt="about image">
                     </div>
                 </div>
             </div>

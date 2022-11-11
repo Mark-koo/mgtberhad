@@ -16,7 +16,7 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
         <!-- col -->
         <div class="col-auto d-none d-md-block">
             <a class="headerContact" href="tel:+60397794892">
-                <img class="icon" src="/img/icon-phone.png">
+                <img class="icon" src="/img/icon-phone.png" alt="icon">
                 <div class="headerContactInfo d-none d-lg-block">
                     <p class="text1">Phone Number</p>
                     <p class="text2">+60 3 9779 4892/3</p>
@@ -25,7 +25,7 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
             <a class="headerContact"
                 href="https://www.google.com.my/maps/search/Suite+11-10,+11+Floor,+Wisma+UOA++II,+No,+Jalan+Pinang,+50450+Kuala+Lumpur,+Wilayah+Persekutuan+Kuala+Lumpur/@3.1527076,101.7117251,19.22z"
                 target="_blank">
-                <img class="icon" src="/img/icon-map.png">
+                <img class="icon" src="/img/icon-map.png" alt="icon">
                 <div class="headerContactInfo d-none d-lg-block">
                     <p class="text1">12 JALAN YAP KWAN SENG, KL, MY</p>
                     <p class="text2">MEGAN AVENUE II</p>
@@ -34,7 +34,7 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
         </div>
         <div class="col-auto d-md-none">
             <button id="toggleNav" class="button-icon">
-                <img src="/img/icon-menu.png" alt="navigation button">
+                <img src="/img/icon-menu.png" alt="navigation button" alt="icon">
             </button>
         </div>
     </div>
@@ -123,7 +123,7 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
         </ul>
         <div class="col-md-auto d-none d-lg-block">
             <a class="button" href="/contact">
-                <img src="/img/icon-phone-2.png">
+                <img src="/img/icon-phone-2.png" alt="icon">
                 <span>Free Consultation</span>
             </a>
         </div>
@@ -153,7 +153,7 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
             <a href="/services">
                 <span>Services</span>
                 <button>
-                    <img src="/img/icon-down.png">
+                    <img src="/img/icon-down.png" alt="icon">
                 </button>
             </a>
             <ul class="secondLayer">
@@ -205,7 +205,7 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
             <a href="/privacy-policy">
                 <span>Policy</span>
                 <button>
-                    <img src="/img/icon-down.png">
+                    <img src="/img/icon-down.png" alt="icon">
                 </button>
             </a>
             <ul class="secondLayer">

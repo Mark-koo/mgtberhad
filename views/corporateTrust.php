@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Corporate Trust - Trustee Company in Malaysia - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="Corporate Trusts is a trust established and maintained by a corporation. It allows the corporation to turnover management of financial resources to another corporation that is charged with specific task in handling the assets.">
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/service.css">
 </head>
@@ -19,7 +21,7 @@
             <div class="row">
                 <div class="info col-12 col-lg-8">
                     <div class="title">
-                        <img src="/img/icon-corporate-trust.png">
+                        <img src="/img/icon-corporate-trust.png" alt="service image">
                         <h1>Corporate Trust</h1>
                     </div>
                     <div class="content">
@@ -38,7 +40,7 @@
                 <!-- talk with us -->
                 <div class="col-12 col-lg-4">
                     <div class="title">
-                        <img src="/img/icon-information.png">
+                        <img src="/img/icon-information.png" alt="icon">
                         <h1>Talk with us</h1>
                     </div>
                     <?php $serviceForm = true;

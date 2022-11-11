@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Will Writing - Trustee Company in Malaysia - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="A legal document that takes effect upon death of the maker of the will (Testator) which contains his last wishes to distribute all his wealth to chosen beneficiaries. During the lifetime of the testator he may revoke the will in totality or amend the will to reflect his last and final Instructions.">
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/service.css">
 </head>
@@ -19,7 +21,7 @@
             <div class="row">
                 <div class="info col-12 col-lg-8">
                     <div class="title">
-                        <img src="/img/icon-will-writing.png">
+                        <img src="/img/icon-will-writing.png" alt="service image">
                         <h1>Will Writing</h1>
                     </div>
                     <div class="content">
@@ -40,7 +42,7 @@
                 <!-- talk with us -->
                 <div class="col-12 col-lg-4">
                     <div class="title">
-                        <img src="/img/icon-information.png">
+                        <img src="/img/icon-information.png" alt="icon">
                         <h1>Talk with us</h1>
                     </div>
                     <?php $serviceForm = true;

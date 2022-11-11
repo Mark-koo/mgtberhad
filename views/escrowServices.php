@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Escrow Services - Trustee Company in Malaysia - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="Escrow service is an agreement made between the trustee acting as the escrow agent and the primary contracting parties, for the trustee to hold and disburse money or documents or source codes or other items at the appropriate time. Upon fulfilment of the conditions stated in the arrangement by either both or one of the primary contracting parties, the trustee shall hand over the documents or items or disburse the money to the rightful parties after receiving the appropriate written instructions.">
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/service.css">
 </head>

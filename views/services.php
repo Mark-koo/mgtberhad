@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Trustee Company in Malaysia - Service - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="We Provide Excellent Services in Professional Manners and Most Important Protect the Benefits of Our Clients">
     <link rel="stylesheet" href="/css/services.css">
 </head>
 
@@ -30,7 +32,7 @@
         <div class="container">
             <div class="row">
                 <div class="serviceChild col-12">
-                    <img src="/img/service-contingency-trust.jpg">
+                    <img src="/img/service-contingency-trust.jpg" alt="service image">
                     <div class="content">
                         <p class="h1">Contingency Trust</p>
                         <p class="description">A trust set up by individual or corporate for contingency purposes which
@@ -40,7 +42,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="/img/service-personal-trust.jpg">
+                    <img src="/img/service-personal-trust.jpg" alt="service image">
                     <div class="content">
                         <p class="h1">Personal Trust</p>
                         <p class="description">A legal arrangement where assets ownership are transferred from the
@@ -50,7 +52,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="/img/service-corporate-trust.jpg">
+                    <img src="/img/service-corporate-trust.jpg" alt="service image">
                     <div class="content">
                         <p class="h1">Corporate Trust</p>
                         <p class="description">Corporate Trusts is a trust established and maintained by a corporation.
@@ -60,7 +62,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="/img/service-will-writing.jpg">
+                    <img src="/img/service-will-writing.jpg" alt="service image">
                     <div class="content">
                         <p class="h1">Will Writing</p>
                         <p class="description">A legal document that takes effect upon death of the maker of the will
@@ -70,7 +72,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="/img/service-administration-of-estate.jpg">
+                    <img src="/img/service-administration-of-estate.jpg" alt="service image">
                     <div class="content">
                         <p class="h1">Administration of Estate</p>
                         <p class="description">Administration of Estate is to appoint an Executor to carry out the
@@ -79,7 +81,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="/img/service-interest-scheme.jpg">
+                    <img src="/img/service-interest-scheme.jpg" alt="service image">
                     <div class="content">
                         <p class="h1">Interest Scheme</p>
                         <p class="description">Interest Scheme involves the promotion of a particular scheme to the
@@ -89,7 +91,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="/img/service-escrow-services.jpg">
+                    <img src="/img/service-escrow-services.jpg" alt="service image">
                     <div class="content">
                         <p class="h1">Escrow Services</p>
                         <p class="description">Escrow service is an agreement made between the trustee acting as the

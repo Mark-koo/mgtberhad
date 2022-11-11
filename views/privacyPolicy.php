@@ -4,6 +4,7 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Trustee Company in Malaysia - Privacy Policy - Mega Trustee Berhad</title>
+    <meta name="description" content="This Privacy Notice is issued by Mega Trustee Berhad. As part of Mega Trustee Berhad’s day to day business, Mega Trustee Berhad collects your Personal Information when you apply to subscribe to any of our services or communicate with us. In return, we may use this information to provide you with our services, maintain our records or send you relevant information.">
     <link rel="stylesheet" href="/css/policy.css">
 </head>
 

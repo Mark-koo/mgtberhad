@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Administration of Estate - Trustee Company in Malaysia - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="Administration of Estate is to appoint an Executor to carry out the instructions of the testator in a professional and timely manner. The executor must have the following qualities and expertise:  1.) Knowledge in legal, accounting, investment, and taxation matters. 2.) Continuity in the administration of estate. 3.) Able to act impartially between various parties and beneficiaries. ">
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/service.css">
 </head>
@@ -19,7 +21,7 @@
             <div class="row">
                 <div class="info col-12 col-lg-8">
                     <div class="title">
-                        <img src="/img/icon-administration-of-estate.png">
+                        <img src="/img/icon-administration-of-estate.png" alt="service image">
                         <h1>Administration of Estate</h1>
                     </div>
                     <div class="content">
@@ -41,7 +43,7 @@
                 <!-- talk with us -->
                 <div class="col-12 col-lg-4">
                     <div class="title">
-                        <img src="/img/icon-information.png">
+                        <img src="/img/icon-information.png" alt="icon">>
                         <h1>Talk with us</h1>
                     </div>
                     <?php $serviceForm = true;

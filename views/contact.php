@@ -4,6 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Trustee Company in Malaysia - Contact - Mega Trustee Berhad</title>
+    <meta name="description"
+        content="Mega Trustee Berhad always listens to its clients and carefully provide professional advice without any conflict. We at Mega Trustee Berhad, envision building and maintaining a continuous and mutually beneficial relationship with our clients.">
     <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/contact.css">
 </head>
@@ -18,21 +20,21 @@
         <div class="container">
             <div class="row">
                 <div class="info col-12 col-md-6 col-lg-4">
-                    <img src="/img/icon-mail.png">
+                    <img src="/img/icon-mail.png" alt="icon">
                     <div class="wrap">
                         <p class="h2">Email</p>
                         <a href="mail:info@megatrustee.com.my">info@megatrustee.com.my</a>
                     </div>
                 </div>
                 <div class="info col-12 col-md-6 col-lg-4">
-                    <img src="/img/icon-phone-3.png">
+                    <img src="/img/icon-phone-3.png" alt="icon">
                     <div class="wrap">
                         <p class="h2">Phone</p>
                         <a href="tel:+60397794892">+60 3 9779 4892/3</a>
                     </div>
                 </div>
                 <div class="info col-12 col-lg-4">
-                    <img src="/img/icon-location.png">
+                    <img src="/img/icon-location.png" alt="icon">
                     <div class="wrap">
                         <p class="h2">Address</p>
                         <a href="https://www.google.com.my/maps/search/Suite+11-10,+11+Floor,+Wisma+UOA++II,+No,+Jalan+Pinang,+50450+Kuala+Lumpur,+Wilayah+Persekutuan+Kuala+Lumpur/@3.1527076,101.7117251,19.22z"

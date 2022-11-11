@@ -7,10 +7,12 @@
                 </p>
                 <div class="path">
                     <a href="/">
-                        <img src="/img/icon-home.png" alt="Home">
+                        <img src="/img/icon-home.png" alt="Home" alt="icon">
                     </a>
-                    <img class="arrow" src="/img/icon-next.png">
-                    <span><?php echo $title ?></span>
+                    <img class="arrow" src="/img/icon-next.png" alt="icon">
+                    <span>
+                        <?php echo $title ?>
+                    </span>
                 </div>
             </div>
         </div>
