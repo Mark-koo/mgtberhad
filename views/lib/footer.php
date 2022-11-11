@@ -49,7 +49,7 @@
         <div class="copyrightArea row">
             <div class="col">
                 <div class="line"></div>
-                <p>© Copyright 2022. All Rights Reserved</p>
+                <p>© Copyright <?php echo date("Y"); ?>. All Rights Reserved</p>
             </div>
         </div>
     </div>

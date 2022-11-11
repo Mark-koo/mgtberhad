@@ -49,7 +49,10 @@
                         <img src="/img/icon-information.png">
                         <h1>Talk with us</h1>
                     </div>
-                    <?php include('lib/form.php'); ?>
+                    <?php $serviceForm = true;
+                    $contactForm = false;
+                    $careerForm = false;
+                    include('lib/form.php'); ?>
                 </div>
             </div>
         </div>

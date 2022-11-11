@@ -44,38 +44,10 @@
             <div class="formAndMap row">
                 <div class="formArea col-12 col-lg-6">
                     <p class="h1">Let's Talk With Us</p>
-                    <form class="blue">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input id="name" name="name" type="text" placeholder="Your Name(*)">
-                            </div>
-                            <div class="col-sm-6">
-                                <input id="email" name="email" type="email" placeholder="Your Email(*)">
-                            </div>
-                            <div class="col-sm-6">
-                                <input id="phone" name="text" type="text" placeholder="Your Phone(*)">
-                            </div>
-                            <div class="col-sm-6">
-                                <select id="service" name="service">
-                                    <option value="">---</option>
-                                    <option value="Contingency Trust">Contingency Trust</option>
-                                    <option value="Personal Trust">Personal Trust</option>
-                                    <option value="Corporate Trust">Corporate Trust</option>
-                                    <option value="Will Writing">Will Writing</option>
-                                    <option value="Administration of Estate">Administration of Estate</option>
-                                    <option value="Interest Scheme">Interest Scheme</option>
-                                    <option value="Escrow Services">Escrow Services</option>
-                                    <option value="Others">Others</option>
-                                </select>
-                            </div>
-                        </div>
-                        <textarea id="message" name="message" placeholder="Your Messages" rows="10"></textarea>
-                        <button class="button blue" type="submit">
-                            <span>Submit</span>
-                            <span style="display:none">Submiting...</span>
-                            <span style="display:none">Successfull! We will reply you ASAP.</span>
-                        </button>
-                    </form>
+                    <?php $serviceForm = false;
+                    $contactForm = true;
+                    $careerForm = false;
+                    include('lib/form.php'); ?>
                 </div>
                 <div class="mapArea col-12 col-lg-6">
                     <div id="map"></div>

@@ -7,6 +7,31 @@
     height: 253px;
     position: relative;
 
+    &.animate {
+        .content {
+            h1 {
+                transition-delay: 0.5s;
+                transition-duration: 1s;
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            p {
+                transition-delay: 1.5s;
+                transition-duration: 1s;
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .button {
+                transition-delay: 2.5s;
+                transition-duration: 1s;
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    }
+
     .content {
         height: 100%;
         padding: 0 25px;
@@ -19,12 +44,16 @@
             text-shadow: rgb(12 12 12) 0px 0px 8px;
             font-weight: 700;
             font-size: 29px;
+            opacity: 0;
+            transform: translateY(-100px);
         }
 
         p {
             margin-top: 5px;
             text-shadow: rgb(12 12 12) 0px 0px 8px;
             font-size: 13px;
+            opacity: 0;
+            transform: translateY(-100px);
         }
 
         .button {
@@ -34,6 +63,8 @@
             height: auto;
             background-color: $color1;
             color: white;
+            opacity: 0;
+            transform: translateY(-100px);
         }
     }
 

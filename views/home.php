@@ -140,4 +140,9 @@
     </div>
 
     <?php include('lib/footer.php'); ?>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelector(".banner").classList.add('animate');
+        });
+    </script>
 </body>

@@ -31,29 +31,10 @@
                     <div class="formArea">
                         <p class="h1">Join Us Now !!</p>
                         <div class="subtitle">Welcome to Join Our Team</div>
-                        <form class="white">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input id="name" name="name" type="text" placeholder="Your Name(*)">
-                                </div>
-                                <div class="col-md-6">
-                                    <input id="email" name="email" type="email" placeholder="Your Email(*)">
-                                </div>
-                            </div>
-                            <input id="phone" name="text" type="text" placeholder="Your Phone(*)">
-                            <textarea id="message" name="message" placeholder="Your Messages" rows="10"></textarea>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Your Resume</label>
-                                    <input id="attachment" name="attachment" type="file">
-                                </div>
-                            </div>
-                            <button class="button" type="submit">
-                                <span>Submit</span>
-                                <span style="display:none">Submiting...</span>
-                                <span style="display:none">Successfull! We will reply you ASAP.</span>
-                            </button>
-                        </form>
+                        <?php $serviceForm = false;
+                        $contactForm = false;
+                        $careerForm = true;
+                        include('lib/form.php'); ?>
                     </div>
                 </div>
             </div>
