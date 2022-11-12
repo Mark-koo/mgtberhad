@@ -25,6 +25,7 @@ header {
     }
 
     .logo {
+        width: auto;
         height: 50px;
 
         @media (max-width: 576px) {
@@ -46,6 +47,7 @@ header {
 
         .icon {
             width: 80px;
+            height: auto;
             margin-right: 20px;
         }
 
@@ -112,7 +114,7 @@ header {
                 display: block;
                 border-bottom: 4px solid transparent;
                 opacity: 0.85;
-                transition: color, border-color, opacity .3s;
+                transition: color .3s, border-color .3s, opacity .3s;
 
                 &:hover {
                     color: white;
@@ -127,7 +129,7 @@ header {
             position: absolute;
             padding: 16px 0;
             background-color: $color2;
-            transition: color, border-color, opacity .3s;
+            transition: color .3s, border-color .3s, opacity .3s;
 
             .active {
                 &>a {
@@ -161,7 +163,6 @@ header {
     visibility: hidden;
 
     &.open {
-        transition: 0.3s;
         opacity: 1;
         visibility: visible;
 
@@ -228,7 +229,7 @@ header {
         overflow-y: scroll;
         padding: 30px;
         box-shadow: -5px 0 20px rgb(0 0 0 / 12%);
-        transition: color, opacity .3s;
+        transition: color .3s, opacity .3s, transform .3s;
         transform: translateX(100%);
 
         .active {
@@ -255,7 +256,7 @@ header {
         padding-left: 20px;
         max-height: 0;
         overflow: hidden;
-        transition: .3s;
+        transition: max-height .3s;
 
         &.open {
             max-height: 400px;

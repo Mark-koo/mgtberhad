@@ -128,7 +128,7 @@ if (isset($_POST['submit'])) {
                     } else {
                         $eventParater = 'career';
                     }
-                    echo "gtag('event', 'event_form_submit', { " . $eventParater . "});";
+                    echo "<script>gtag('event', 'event_form_submit', { event_form_submit : '" . $eventParater . "'});</script>";
 
                 } else {
                     $statusMsg = 'Your contact request submission failed, please try again.';

@@ -6,7 +6,7 @@
     <title>Trustee Company in Malaysia - Service - Mega Trustee Berhad</title>
     <meta name="description"
         content="We Provide Excellent Services in Professional Manners and Most Important Protect the Benefits of Our Clients">
-<script defer src="./dist/common.229efc96d34a340a8338.js"></script><script defer src="./dist/services.6af86d278c74a0869ec7.js"></script></head>
+<script defer src="./dist/common.c67a30c833b616740c79.js"></script><script defer src="./dist/services.057acb2ed80bba109a37.js"></script></head>
 
 <body>
     <?php include('lib/header.php'); ?>
@@ -31,7 +31,7 @@
         <div class="container">
             <div class="row">
                 <div class="serviceChild col-12">
-                    <img src="./dist/images/service-contingency-trust-6e0a4279bfa6fc02695d.jpg" alt="service image">
+                    <img src="./dist/images/service-contingency-trust-6e0a4279bfa6fc02695d.jpg" alt="service image" width="1" height="1">
                     <div class="content">
                         <p class="h1">Contingency Trust</p>
                         <p class="description">A trust set up by individual or corporate for contingency purposes which
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="./dist/images/service-personal-trust-9df244b64641ddc30aa9.jpg" alt="service image">
+                    <img src="./dist/images/service-personal-trust-9df244b64641ddc30aa9.jpg" alt="service image" width="1" height="1">
                     <div class="content">
                         <p class="h1">Personal Trust</p>
                         <p class="description">A legal arrangement where assets ownership are transferred from the
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="./dist/images/service-corporate-trust-71e684821a7454aea124.jpg" alt="service image">
+                    <img src="./dist/images/service-corporate-trust-71e684821a7454aea124.jpg" alt="service image" width="1" height="1">
                     <div class="content">
                         <p class="h1">Corporate Trust</p>
                         <p class="description">Corporate Trusts is a trust established and maintained by a corporation.
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="./dist/images/service-will-writing-e9af505a52354b41261f.jpg" alt="service image">
+                    <img src="./dist/images/service-will-writing-e9af505a52354b41261f.jpg" alt="service image" width="1" height="1">
                     <div class="content">
                         <p class="h1">Will Writing</p>
                         <p class="description">A legal document that takes effect upon death of the maker of the will
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="./dist/images/service-administration-of-estate-be0e77c45c533945a3be.jpg" alt="service image">
+                    <img src="./dist/images/service-administration-of-estate-be0e77c45c533945a3be.jpg" alt="service image" width="1" height="1">
                     <div class="content">
                         <p class="h1">Administration of Estate</p>
                         <p class="description">Administration of Estate is to appoint an Executor to carry out the
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="./dist/images/service-interest-scheme-3be5a4b2dfb5bc59c8db.jpg" alt="service image">
+                    <img src="./dist/images/service-interest-scheme-3be5a4b2dfb5bc59c8db.jpg" alt="service image" width="1" height="1">
                     <div class="content">
                         <p class="h1">Interest Scheme</p>
                         <p class="description">Interest Scheme involves the promotion of a particular scheme to the
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="serviceChild col-12">
-                    <img src="./dist/images/service-escrow-services-f0299c17be8b28d89bde.jpg" alt="service image">
+                    <img src="./dist/images/service-escrow-services-f0299c17be8b28d89bde.jpg" alt="service image" width="1" height="1">
                     <div class="content">
                         <p class="h1">Escrow Services</p>
                         <p class="description">Escrow service is an agreement made between the trustee acting as the

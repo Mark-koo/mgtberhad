@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="info col-12 col-lg-8">
                     <div class="title">
-                        <img src="/img/icon-administration-of-estate.png" alt="service image">
+                        <img src="/img/icon-administration-of-estate.png" alt="icon" width="1" height="1">
                         <h1>Administration of Estate</h1>
                     </div>
                     <div class="content">
@@ -41,7 +41,7 @@
                 <!-- talk with us -->
                 <div class="col-12 col-lg-4">
                     <div class="title">
-                        <img src="/img/icon-information.png" alt="icon">>
+                        <img src="/img/icon-information.png" alt="icon" width="1" height="1">
                         <h1>Talk with us</h1>
                     </div>
                     <?php $serviceForm = true;

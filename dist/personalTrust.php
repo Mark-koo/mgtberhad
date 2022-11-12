@@ -6,7 +6,7 @@
     <title>Personal Trust - Trustee Company in Malaysia - Mega Trustee Berhad</title>
     <meta name="description"
         content="A legal arrangement where assets ownership are transferred from the individual who sets up the trust (Settlor) to another individual or organization (Trustee) for the benefits of one or more people (Beneficiaries).">
-<script defer src="./dist/common.229efc96d34a340a8338.js"></script><script defer src="./dist/personalTrust.a599596f3e520203cd4a.js"></script></head>
+<script defer src="./dist/common.c67a30c833b616740c79.js"></script><script defer src="./dist/personalTrust.a599596f3e520203cd4a.js"></script></head>
 
 <body>
     <?php include('lib/header.php'); ?>
@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="info col-12 col-lg-8">
                     <div class="title">
-                        <img src="./dist/images/icon-personal-trust-18ebec0b7af756662525.png" alt="icon">
+                        <img src="./dist/images/icon-personal-trust-18ebec0b7af756662525.png" alt="icon" width="1" height="1">
                         <h1>Personal Trust</h1>
                     </div>
                     <div class="content">
@@ -46,7 +46,7 @@
                 <!-- talk with us -->
                 <div class="col-12 col-lg-4">
                     <div class="title">
-                        <img src="./dist/images/icon-information-2720393c1321bf57c573.png" alt="icon">
+                        <img src="./dist/images/icon-information-2720393c1321bf57c573.png" alt="icon" width="1" height="1">
                         <h1>Talk with us</h1>
                     </div>
                     <?php $serviceForm = true;

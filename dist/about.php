@@ -6,7 +6,7 @@
     <title>Trustee Company in Malaysia - About - Mega Trustee Berhad</title>
     <meta name="description"
         content="We offer highly efficient and personalized level of support and administration for the needs of corporate institutions and individuals around the world. Mega Trustee Berhad always listens to its clients and carefully provide professional advice without any conflict. We at Mega Trustee Berhad, envision building and maintaining a continuous and mutually beneficial relationship with our clients.">
-<script defer src="./dist/common.229efc96d34a340a8338.js"></script><script defer src="./dist/about.9fde311028eea4a96192.js"></script></head>
+<script defer src="./dist/common.c67a30c833b616740c79.js"></script><script defer src="./dist/about.8b16708394751853ed7e.js"></script></head>
 
 <body>
     <?php include('lib/header.php'); ?>
@@ -36,9 +36,9 @@
                         relationship with our clients.
                     </p>
                     <div class="imgArea ">
-                        <img src="./dist/images/about-1-c861244fba1cc09ce402.jpg" alt="about image">
-                        <img src="./dist/images/about-2-b9ea0ed82713193516f5.jpg" alt="about image">
-                        <img src="./dist/images/about-3-c24a39f669ae0ae5f602.jpg" alt="about image">
+                        <img src="./dist/images/about-1-c861244fba1cc09ce402.jpg" alt="about image" width="1" height="1">
+                        <img src="./dist/images/about-2-b9ea0ed82713193516f5.jpg" alt="about image" width="1" height="1">
+                        <img src="./dist/images/about-3-c24a39f669ae0ae5f602.jpg" alt="about image" width="1" height="1">
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                             play a very important role to lead the company to continuous growth and success.</p>
                     </div>
                     <div class="staff">
-                        <img src="./dist/images/Tan-Sri-Ahmad-Bin-Wahid-d6a6d388caf4d8731abe.jpg" alt="Tan Sri Ahmad Bin Wahid">
+                        <img src="./dist/images/Tan-Sri-Ahmad-Bin-Wahid-d6a6d388caf4d8731abe.jpg" alt="Tan Sri Ahmad Bin Wahid" width="1" height="1">
                         <p class="name">Tan Sri Ahmad Bin Wahid</p>
                         <p class="position">Advisor</p>
                         <p class="description">Tan Sri Ahmad Bin Wahid graduated from The Ohio State University,

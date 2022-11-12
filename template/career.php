@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img src="/img/career.jpg" alt="career image">>
+                    <img src="/img/career.jpg" alt="career image" width="1" height="1">
                     <div class="formArea">
                         <p class="h1">Join Us Now !!</p>
                         <div class="subtitle">Welcome to Join Our Team</div>

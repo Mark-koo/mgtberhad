@@ -36,9 +36,9 @@
                         relationship with our clients.
                     </p>
                     <div class="imgArea ">
-                        <img src="/img/about-1.jpg" alt="about image">
-                        <img src="/img/about-2.jpg" alt="about image">
-                        <img src="/img/about-3.jpg" alt="about image">
+                        <img src="/img/about-1.jpg" alt="about image" width="1" height="1">
+                        <img src="/img/about-2.jpg" alt="about image" width="1" height="1">
+                        <img src="/img/about-3.jpg" alt="about image" width="1" height="1">
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                             play a very important role to lead the company to continuous growth and success.</p>
                     </div>
                     <div class="staff">
-                        <img src="/img/Tan-Sri-Ahmad-Bin-Wahid.jpg" alt="Tan Sri Ahmad Bin Wahid">
+                        <img src="/img/Tan-Sri-Ahmad-Bin-Wahid.jpg" alt="Tan Sri Ahmad Bin Wahid" width="1" height="1">
                         <p class="name">Tan Sri Ahmad Bin Wahid</p>
                         <p class="position">Advisor</p>
                         <p class="description">Tan Sri Ahmad Bin Wahid graduated from The Ohio State University,

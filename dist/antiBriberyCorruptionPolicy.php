@@ -6,7 +6,7 @@
     <title>Trustee Company in Malaysia - Anti-bribery & Corruption Policy - Mega Trustee Berhad</title>
     <meta name="description"
         content="Mega Trustee Berhad (“the Company”) is licensed and regulated by the Central Bank of Malaysia (“BNM”) and the Securities Commission of Malaysia (“SC”). With the coming into force of Section 17A of the Malaysian Anti-Corruption Commission Act, the Company’s Anti-Bribery and Corruption Policy (“the Policy”) provides guidance to employees and its stakeholders on how to recognize and deal with improper solicitation, bribery and any other corruption activities and issues that may arise in the course of business.">
-<script defer src="./dist/common.229efc96d34a340a8338.js"></script><script defer src="./dist/antiBriberyCorruptionPolicy.d647a177a8a5ace94009.js"></script></head>
+<script defer src="./dist/common.c67a30c833b616740c79.js"></script><script defer src="./dist/antiBriberyCorruptionPolicy.d647a177a8a5ace94009.js"></script></head>
 
 <body>
     <?php include('lib/header.php'); ?>

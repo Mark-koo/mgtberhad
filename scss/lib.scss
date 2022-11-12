@@ -309,7 +309,7 @@
     align-items: center;
     font-weight: 700;
     height: 54px;
-    transition: .3s;
+    transition: background-color .3s, color .3s;
     line-height: 1.2;
     cursor: pointer;
 
@@ -330,6 +330,7 @@
 
     img {
         width: 18px;
+        height: auto;
         margin-right: 15px;
     }
 }
@@ -343,5 +344,6 @@
 
     img {
         width: 25px;
+        height: auto;
     }
 }

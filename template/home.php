@@ -44,56 +44,56 @@
         <div class="container">
             <div class="row">
                 <div class="image col-12 col-lg-4">
-                    <img src="/img/expertise.jpg" alt="service image">
+                    <img src="/img/expertise.jpg" alt="service image" width="1" height="1">
                 </div>
                 <div class="content col-12 col-lg-8">
                     <h2>What We Expertise in</h2>
                     <div class="expertiseServices container">
                         <div class="row">
                             <a class="col-12 col-md-6" href="/contingency-trust">
-                                <img src="/img/icon-contingency-trust.png" alt="icon">
+                                <img src="/img/icon-contingency-trust.png" alt="icon" width="1" height="1">
                                 <div class="info">
                                     <h3>Contingency Trust</h3>
                                     <p>Recommendations and Advice</p>
                                 </div>
                             </a>
                             <a class="col-12 col-md-6" href="/personal-trust">
-                                <img src="/img/icon-personal-trust.png" alt="icon">
+                                <img src="/img/icon-personal-trust.png" alt="icon" width="1" height="1">
                                 <div class="info">
                                     <h3>Personal Trust</h3>
                                     <p>Trustworthy and Reliable</p>
                                 </div>
                             </a>
                             <a class="col-12 col-md-6" href="/corporate-trust">
-                                <img src="/img/icon-corporate-trust.png" alt="icon">
+                                <img src="/img/icon-corporate-trust.png" alt="icon" width="1" height="1">
                                 <div class="info">
                                     <h3>Corporate Trust</h3>
                                     <p>Expert and Experience</p>
                                 </div>
                             </a>
                             <a class="col-12 col-md-6" href="/will-writing">
-                                <img src="/img/icon-will-writing.png" alt="icon">
+                                <img src="/img/icon-will-writing.png" alt="icon" width="1" height="1">
                                 <div class="info">
                                     <h3>Will Writing</h3>
                                     <p>Timely and professional manner</p>
                                 </div>
                             </a>
                             <a class="col-12 col-md-6" href="/administration-of-estate">
-                                <img src="/img/icon-administration-of-estate.png" alt="icon">
+                                <img src="/img/icon-administration-of-estate.png" alt="icon" width="1" height="1">
                                 <div class="info">
                                     <h3>Administration of Estate</h3>
                                     <p>Knowledgeable and Efficient</p>
                                 </div>
                             </a>
                             <a class="col-12 col-md-6" href="/interest-scheme">
-                                <img src="/img/icon-interest-scheme.png" alt="icon">
+                                <img src="/img/icon-interest-scheme.png" alt="icon" width="1" height="1">
                                 <div class="info">
                                     <h3>Interest Scheme</h3>
                                     <p>Stable and High Return</p>
                                 </div>
                             </a>
                             <a class="col-12 col-md-6" href="/escrow-services">
-                                <img src="/img/icon-escrow-services.png" alt="icon">
+                                <img src="/img/icon-escrow-services.png" alt="icon" width="1" height="1">
                                 <div class="info">
                                     <h3>Escrow Services</h3>
                                     <p>Safe and Secure</p>
@@ -118,7 +118,7 @@
                         of the Trust Company Act, 1949. We are an independent trust company in Malaysia and our team
                         consist of professionals in law, banking and trustee services.</p>
                     <a class="link" href="/about">
-                        <img src="/img/icon-right-arrow.png" alt="icon">
+                        <img src="/img/icon-right-arrow.png" alt="icon" width="1" height="1">
                         <span>About Us</span>
                     </a>
                 </div>
@@ -137,7 +137,7 @@
                 <div class="col-md-12 col-lg-6 buttonArea">
                     <a class="button" href="/contact">Request</a>
                     <a class="button" href="tel:+60397794892">
-                        <img src="/img/icon-phone-2.png" alt="icon">
+                        <img src="/img/icon-phone-2.png" alt="icon" width="1" height="1">
                         <span>+60 3 9779 4892/3</span>
                     </a>
                 </div>

@@ -32,6 +32,7 @@
 
         img {
             width: 100%;
+            height: auto;
             display: block;
             // transform: translateY(-150px);
         }
@@ -123,6 +124,7 @@
         img {
             max-width: 200px;
             width: 100%;
+            height: auto;
         }
 
         .name {

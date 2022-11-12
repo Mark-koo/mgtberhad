@@ -3,5 +3,5 @@ RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.webp|\.gif|\.jpeg|\.zip|\.css|\.svg|
 RewriteRule (.*) routes.php [QSA,L]
 
 <filesMatch ".(ico|pdf|jpg|jpeg|webp|png|js|css)$">
-    Header set Cache-Control "max-age=84600, public"
+    Header set Cache-Control "max-age=31536000, public"
 </filesMatch>
