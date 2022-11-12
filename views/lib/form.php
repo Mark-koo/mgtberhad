@@ -119,6 +119,17 @@ if (isset($_POST['submit'])) {
                 if ($mail) {
                     $statusMsg = 'Your Message was submitted successfully!';
                     $postData = '';
+
+                    $eventParater = '';
+                    if ($serviceForm) {
+                        $eventParater = 'service';
+                    } else if ($contactForm) {
+                        $eventParater = 'contact';
+                    } else {
+                        $eventParater = 'career';
+                    }
+                    echo "gtag('event', 'event_form_submit', { " . $eventParater . "});";
+
                 } else {
                     $statusMsg = 'Your contact request submission failed, please try again.';
                 }

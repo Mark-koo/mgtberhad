@@ -2,7 +2,7 @@
 
 footer {
     background-color: $color3;
-    color: rgba($color2, 70%);
+    color: $color2;
     line-height: 1.8;
     font-weight: 300;
     font-size: 15px;
@@ -37,7 +37,7 @@ footer {
             padding-bottom: 70px;
 
             a {
-                color: rgba($color2, 70%);
+                color: $color2;
                 display: block;
                 line-height: 1.9;
             }

@@ -4,7 +4,8 @@
 <head>
     <?php include('lib/htmlHead.php'); ?>
     <title>Trustee Company in Malaysia - Mega Trustee Berhad</title>
-    <meta name="description" content="Mega Trustee Berhad is a Malaysian licensed trustee company under Section 4 of the Trust Company Act, 1949. We are an independent trust company in Malaysia and our team consist of professionals in law, banking and trustee services.">
+    <meta name="description"
+        content="Mega Trustee Berhad is a Malaysian licensed trustee company under Section 4 of the Trust Company Act, 1949. We are an independent trust company in Malaysia and our team consist of professionals in law, banking and trustee services.">
     <link rel="stylesheet" href="/css/home.css">
 </head>
 
@@ -13,6 +14,11 @@
 
     <!-- banner -->
     <div class="banner">
+        <picture>
+            <source srcset="/img/home-banner-800.webp 800w, /img/home-banner.webp 1920w" type="image/webp">
+            <source srcset="/img/home-banner-800.jpg 800w, /img/home-banner.jpg 1920w" type="image/jpeg">
+            <img src="/img/home-banner.jpg" alt="KLCC Malaysia">
+        </picture>
         <div class="content container">
             <h1>Malaysian Licensed <br />Trustee Company</h1>
             <p>Reliable, Responsible and Trustworthy</p>
@@ -114,7 +120,7 @@
                         consist of professionals in law, banking and trustee services.</p>
                     <a class="link" href="/about">
                         <img src="/img/icon-right-arrow.png" alt="icon">
-                        <span>Learn more</span>
+                        <span>About Us</span>
                     </a>
                 </div>
             </div>
