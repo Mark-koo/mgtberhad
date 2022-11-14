@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img src="./dist/images/career-915c4d1b28f8f294b068.jpg" alt="career image" width="1" height="1">
+                    <img src="https://www.megatrustee.com.my/dist/915c4d1b28f8f294b068.jpg" alt="career image" width="1" height="1">
                     <div class="formArea">
                         <p class="h1">Join Us Now !!</p>
                         <div class="subtitle">Welcome to Join Our Team</div>

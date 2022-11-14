@@ -18,21 +18,21 @@
         <div class="container">
             <div class="row">
                 <div class="info col-12 col-md-6 col-lg-4">
-                    <img src="./dist/images/icon-mail-286a8f6c7eb39d9a665a.png" alt="icon" width="1" height="1">
+                    <img src="https://www.megatrustee.com.my/dist/286a8f6c7eb39d9a665a.png" alt="icon" width="1" height="1">
                     <div class="wrap">
                         <p class="h2">Email</p>
                         <a href="mail:info@megatrustee.com.my">info@megatrustee.com.my</a>
                     </div>
                 </div>
                 <div class="info col-12 col-md-6 col-lg-4">
-                    <img src="./dist/images/icon-phone-3-b83be0a728fd37715d09.png" alt="icon" width="1" height="1">
+                    <img src="https://www.megatrustee.com.my/dist/b83be0a728fd37715d09.png" alt="icon" width="1" height="1">
                     <div class="wrap">
                         <p class="h2">Phone</p>
                         <a href="tel:+60397794892">+60 3 9779 4892/3</a>
                     </div>
                 </div>
                 <div class="info col-12 col-lg-4">
-                    <img src="./dist/images/icon-location-2e41533454bed4a0a738.png" alt="icon" width="1" height="1">
+                    <img src="https://www.megatrustee.com.my/dist/2e41533454bed4a0a738.png" alt="icon" width="1" height="1">
                     <div class="wrap">
                         <p class="h2">Address</p>
                         <a href="https://www.google.com.my/maps/search/Suite+11-10,+11+Floor,+Wisma+UOA++II,+No,+Jalan+Pinang,+50450+Kuala+Lumpur,+Wilayah+Persekutuan+Kuala+Lumpur/@3.1527076,101.7117251,19.22z"

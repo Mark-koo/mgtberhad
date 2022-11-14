@@ -48,7 +48,7 @@ module.exports = {
         rules: [
             {
                 test: /\.php$/i,
-                use: 'html-loader'
+                use: 'html-loader',
             },
             {
                 test: /\.(png|jpg|webp)$/i,
@@ -59,15 +59,23 @@ module.exports = {
                         pngquant: {
                             quality: [.90, .95],
                         },
+                        webp: {
+                            quality: 75
+                        },
+                        // esModule: false
                     }
                 }],
                 parser: {
                     dataUrlCondition: {
                         maxSize: 10 * 1024 // Inline anything under 10kb
-                    }
+                    },
+                    javascript: {
+                        url: 'relative', // disable parsing of `new URL()` syntax
+                    },
                 },
                 generator: {
-                    filename: 'images/[name]-[hash][ext]'
+                    publicPath: 'https://www.megatrustee.com.my/dist/',
+                    filename: '[hash][ext]',
                 }
             },
             {

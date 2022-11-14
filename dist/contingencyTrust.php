@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="info col-12 col-lg-8">
                     <div class="title">
-                        <img src="./dist/images/icon-contingency-trust-efd1f9bc1fb6c911b5a4.png" alt="icon" width="1" height="1">
+                        <img src="https://www.megatrustee.com.my/dist/efd1f9bc1fb6c911b5a4.png" alt="icon" width="1" height="1">
                         <h1>Contingency Trust</h1>
                     </div>
                     <div class="content">
@@ -39,7 +39,7 @@
                 <!-- talk with us -->
                 <div class="col-12 col-lg-4">
                     <div class="title">
-                        <img src="./dist/images/icon-information-2720393c1321bf57c573.png" alt="icon" width="1" height="1">
+                        <img src="https://www.megatrustee.com.my/dist/2720393c1321bf57c573.png" alt="icon" width="1" height="1">
                         <h1>Talk with us</h1>
                     </div>
                     <?php $serviceForm = true;

@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <?php include('lib/htmlHead.php'); ?>
     <title>Trustee Company in Malaysia - Mega Trustee Berhad</title>
     <meta name="description"
         content="Mega Trustee Berhad is a Malaysian licensed trustee company under Section 4 of the Trust Company Act, 1949. We are an independent trust company in Malaysia and our team consist of professionals in law, banking and trustee services.">
+
+    <meta property="og:title" content="Trustee Company in Malaysia - Mega Trustee Berhad">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.megatrustee.com.my/">
+    <meta property="og:image" content="/img/ogImage-300x300.jpg">
+    <meta property="og:image:secure_url" content="/img/ogImage-300x300.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:image:alt" content="Mega Trustee Berhad Logo">
+    <meta property="og:image" content="/img/ogImage-1200x630.jpg">
+    <meta property="og:image:secure_url" content="/img/ogImage-1200x630.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Mega Trustee Berhad Logo">
+    <meta property="og:description"
+        content="Mega Trustee Berhad is a Malaysian licensed trustee company under Section 4 of the Trust Company Act, 1949. We are an independent trust company in Malaysia and our team consist of professionals in law, banking and trustee services.">
+    <meta property="og:locale" content="en">
+    <meta property="og:site_name" content="Mega Trustee Berhad Logo">
+    <link rel="canonical" href="https://www.megatrustee.com.my/">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"Organization",
+        "url":"https://www.megatruestee.com.my",
+        "logo":"https://www.megatrustee.com.my/dist/ogImage-300x300-12bd7aec5a2f3e01b735.jpg"
+    }
+</script>
 </head>
 
 <body>
     <?php include('lib/header.php'); ?>
+
 
     <!-- banner -->
     <div class="banner">
