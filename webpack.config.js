@@ -62,7 +62,6 @@ module.exports = {
                         webp: {
                             quality: 75
                         },
-                        // esModule: false
                     }
                 }],
                 parser: {

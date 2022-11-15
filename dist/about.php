@@ -60,6 +60,7 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="staff">
+                        <img src="https://www.megatrustee.com.my/dist/00bdd9867b5b705da368.jpg" alt="Shafiq Sahafi (Megatrustee Berhad)" width="1" height="1">
                         <p class="name">Shafiq Sahafi</p>
                         <p class="position">CEO</p>
                         <p class="description">Shafiq Sahafi was graduated with a background of Chemical Engineering, he
@@ -73,7 +74,7 @@
                             play a very important role to lead the company to continuous growth and success.</p>
                     </div>
                     <div class="staff">
-                        <img src="https://www.megatrustee.com.my/dist/d6a6d388caf4d8731abe.jpg" alt="Tan Sri Ahmad Bin Wahid" width="1" height="1">
+                        <img src="https://www.megatrustee.com.my/dist/d6a6d388caf4d8731abe.jpg" alt="Tan Sri Ahmad Bin Wahid (Megatrustee Berhad)" width="1" height="1">
                         <p class="name">Tan Sri Ahmad Bin Wahid</p>
                         <p class="position">Advisor</p>
                         <p class="description">Tan Sri Ahmad Bin Wahid graduated from The Ohio State University,
