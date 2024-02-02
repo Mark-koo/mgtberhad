@@ -4,7 +4,7 @@
         <div class="topArea row">
             <div class="col-12 col-lg-6">
                 <img class="logo" src="/img/logo.png" alt="Mega Trustee Berhad" width="4" height="1">
-                <p class="description">Mega Trustee Berhad always listens to its clients and carefully provide
+                <p class="description">Mega Trustee Berhad (1443392-X) always listens to its clients and carefully provide
                     professional advice without any conflict. We at Mega Trustee Berhad, envision building and
                     maintaining a continuous and mutually beneficial relationship with our clients.</p>
             </div>

@@ -24,7 +24,7 @@
                     <p class="subtitle">Professional and Expertise</p>
                 </div>
                 <div class="area2 col-12 col-lg-8">
-                    <p class="content">Mega Trustee Berhad is a Malaysian licensed trustee company under Section 4 of
+                    <p class="content">Mega Trustee Berhad (1443392-X) is a Malaysian licensed trustee company under Section 4 of
                         the Trust Company
                         Act, 1949. We are an independent trust company in Malaysia and our team consist of
                         <strong>professionals in law, banking</strong> and <strong>trustee services</strong>. We offer

@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col">
                     <div class="content">
-                        <p>This Privacy Notice is issued by Mega Trustee Berhad. As part of Mega Trustee Berhad’s day to
+                        <p>This Privacy Notice is issued by Mega Trustee Berhad (1443392-X). As part of Mega Trustee Berhad’s day to
                             day business, Mega Trustee Berhad collects your Personal Information when you apply to
                             subscribe to any of
                             our services or communicate with us. In return, we may use this information to provide you
@@ -243,7 +243,7 @@
                                 </tr>
                                 <tr>
                                     <td>Mailing Address</td>
-                                    <td>Mega Trustee Berhad, Suite 11-10, 11 Floor, Wisma UOA &nbsp;II, No,
+                                    <td>Mega Trustee Berhad (1443392-X), 11-10, Wisma UOA, No 21,
                                         Jalan Pinang,
                                         50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</td>
                                 </tr>

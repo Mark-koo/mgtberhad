@@ -27,8 +27,8 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
                 target="_blank">
                 <img class="icon" src="/img/icon-map.png" alt="icon" width="80" height="52">
                 <div class="headerContactInfo d-none d-lg-block">
-                    <p class="text1">12 JALAN YAP KWAN SENG, KL, MY</p>
-                    <p class="text2">MEGAN AVENUE II</p>
+                    <p class="text1">NO 21, JALAN PINANG, KL, MY</p>
+                    <p class="text2">WISMA UOA</p>
                 </div>
             </a>
         </div>
