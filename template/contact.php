@@ -61,7 +61,7 @@
         defer></script>
     <script>
         window.initMap = function initMap() {
-            const myLatLng = { lat: 3.161549, lng: 101.71186 };
+            const myLatLng = { lat: 3.1527498, lng: 101.7119502 };
 
             const map = new google.maps.Map(
                 document.getElementById("map"),
