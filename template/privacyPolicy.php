@@ -243,7 +243,7 @@
                                 </tr>
                                 <tr>
                                     <td>Mailing Address</td>
-                                    <td>Mega Trustee Berhad (1443392-X), 11-10, Wisma UOA, No 21,
+                                    <td>Mega Trustee Berhad (1443392-X), Unit 11-10, Wisma UOA II, No 21,
                                         Jalan Pinang,
                                         50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</td>
                                 </tr>

@@ -15,11 +15,11 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
         </div>
         <!-- col -->
         <div class="col-auto d-none d-md-block">
-            <a class="headerContact" href="tel:+60397794892">
+            <a class="headerContact" href="tel:+60327243022">
                 <img class="icon" src="/img/icon-phone.png" alt="icon"  width="80" height="52">
                 <div class="headerContactInfo d-none d-lg-block">
                     <p class="text1">Phone Number</p>
-                    <p class="text2">+60 3 9779 4892/3</p>
+                    <p class="text2">+60 3 2724 3022/3</p>
                 </div>
             </a>
             <a class="headerContact"
@@ -28,7 +28,7 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
                 <img class="icon" src="/img/icon-map.png" alt="icon" width="80" height="52">
                 <div class="headerContactInfo d-none d-lg-block">
                     <p class="text1">NO 21, JALAN PINANG, KL, MY</p>
-                    <p class="text2">WISMA UOA</p>
+                    <p class="text2">WISMA UOA II</p>
                 </div>
             </a>
         </div>

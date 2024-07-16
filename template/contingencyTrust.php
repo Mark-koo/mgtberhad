@@ -33,7 +33,7 @@
                             are given the freedom of choice for the beneficiaries which may include family, friends
                             and related business partner in which the flexibility of distributions are given to the
                             settlor.</p>
-                        <p><a href="/pdf/contingency-trust.pdf" target="_blank"><strong>[Download]</strong></a></p>
+                        <!-- <p><a href="/pdf/contingency-trust.pdf" target="_blank"><strong>[Download]</strong></a></p> -->
                     </div>
                 </div>
                 <!-- talk with us -->

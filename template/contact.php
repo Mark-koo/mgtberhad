@@ -28,7 +28,7 @@
                     <img src="/img/icon-phone-3.png" alt="icon" width="1" height="1">
                     <div class="wrap">
                         <p class="h2">Phone</p>
-                        <a href="tel:+60397794892">+60 3 9779 4892/3</a>
+                        <a href="tel:+60327243022">+60 3 2724 3022/3</a>
                     </div>
                 </div>
                 <div class="info col-12 col-lg-4">
@@ -36,8 +36,8 @@
                     <div class="wrap">
                         <p class="h2">Address</p>
                         <a href="https://www.google.com.my/maps/search/Suite+11-10,+11+Floor,+Wisma+UOA++II,+No,+Jalan+Pinang,+50450+Kuala+Lumpur,+Wilayah+Persekutuan+Kuala+Lumpur/@3.1527076,101.7117251,19.22z"
-                            target="_blank">B-06-14,
-                            MEGAN AVENUE II, <br>12 JALAN YAP KWAN SENG, <br>50450 KUALA LUMPUR</a>
+                            target="_blank">Unit 11-10,
+                            WISMA UOA II, <br>No 21 JALAN PINANG, <br>50450 KUALA LUMPUR</a>
                     </div>
                 </div>
             </div>

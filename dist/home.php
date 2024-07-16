@@ -166,9 +166,9 @@
                 </div>
                 <div class="col-md-12 col-lg-6 buttonArea">
                     <a class="button" href="/contact">Request</a>
-                    <a class="button" href="tel:+60397794892">
+                    <a class="button" href="tel:+60327243022">
                         <img src="https://www.megatrustee.com.my/dist/5177d17487ce5e73d51f.png" alt="icon" width="1" height="1">
-                        <span>+60 3 9779 4892/3</span>
+                        <span>+60 3 2724 3022/3</span>
                     </a>
                 </div>
             </div>
