@@ -2,6 +2,11 @@
 $url = substr($_SERVER['REQUEST_URI'], 1);
 ?>
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN7TXLW4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+ 
 <!-- header -->
 <header class="container">
 
